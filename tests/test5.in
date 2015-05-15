@@ -1,0 +1,11 @@
+PROGRAM exemplo05Correto; 
+
+VAR a, b : INTEGER; 
+
+BEGIN 
+	IF ( a > b ) THEN 
+		WHILE (a < b) DO
+			a := b;
+		ENDWHILE;
+	ENDIF; 
+END.

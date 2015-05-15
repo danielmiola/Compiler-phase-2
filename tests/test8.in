@@ -1,0 +1,7 @@
+PROGRAM exemplo01erroLexico;
+	VAR 
+		a, b: INTEGER;
+		c : ARRAY [ 10 .. 20 ] OF INTEGER;
+	BEGIN
+		WRITELN('declarando um array de inteiros');
+	END.

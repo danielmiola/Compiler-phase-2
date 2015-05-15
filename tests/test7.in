@@ -1,0 +1,8 @@
+PROGRAM exemplo07erroSemantico; 
+
+VAR 
+	a : CHAR;
+
+BEGIN 
+	a := 4;
+END.

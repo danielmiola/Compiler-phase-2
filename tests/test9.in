@@ -1,0 +1,10 @@
+PROGRAM exemplo09Correto; 
+
+VAR a, b : INTEGER; 
+	c : STRING;
+
+BEGIN 
+	c := 'abc';
+	WRITE('Valor da variavel: ');
+	WRITELN(c);
+END.

@@ -1,0 +1,24 @@
+PROGRAM exemplo10correto;
+	VAR 
+		a, b, i: INTEGER;
+		c : REAL;
+		d:CHAR;
+		e: STRING;
+		f : ARRAY [ 10 .. 20 ] OF INTEGER;
+		g : ARRAY [10..20] OF REAL;
+		h : ARRAY [10..20] OF CHAR;
+		j : ARRAY [10..20] OF STRING; 
+	BEGIN
+	
+		a := a*b+a;		
+			
+		IF a > b THEN
+			WRITE('testee');
+			WRITELN('testee');
+		ENDIF;
+		
+		WHILE a < b DO
+			WRITELN ('teste');
+			WRITE('testee');
+		ENDWHILE;
+	END.

@@ -1,0 +1,16 @@
+PROGRAM exemplo06Correto; 
+
+VAR 
+	a, b : INTEGER;
+	c : CHAR;
+
+BEGIN 
+	WRITE(-6.89);
+	WRITELN('frase sem sentido'); {inserindo um comentario grande aqui}
+	WRITELN();
+	a := 2;
+	b := 5;
+	IF(a < b) THEN
+		WRITE('a eh menor do que  b');
+	ENDIF;
+END.

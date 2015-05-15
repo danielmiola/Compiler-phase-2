@@ -1,0 +1,9 @@
+PROGRAM exemplo04Correto; 
+
+VAR a, b : INTEGER; 
+
+BEGIN 
+	IF ( a > b > 1 ) THEN 
+		WRITE('a eh maior que b e maior que 1'); 
+	ENDIF; 
+END.

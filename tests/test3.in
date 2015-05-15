@@ -1,0 +1,8 @@
+PROGRAM exemplo03ErroSemantico;
+
+VAR a, b : INTEGER; 
+BEGIN 
+	IF a > c THEN { # } 
+		WRITE('teste'); 
+	ENDIF; 
+END.
